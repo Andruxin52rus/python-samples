@@ -117,8 +117,6 @@ def h(x, y, z=42):
 
 
 if __name__ == '__main__':
-    # print(str([1, 2]))
-    # print(json.dumps({'d': 1}, sort_keys=True))
     import doctest
     count, _ = doctest.testmod()
     if count == 0:
